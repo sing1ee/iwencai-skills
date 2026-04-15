@@ -1,5 +1,5 @@
 ---
-name: 公告搜索
+name: Announcement Search
 description: 支持A股、港股、基金、ETF等金融标的公告的查询，同时公告类型包括不限于定期财务报告、分红派息、回购增持、资产重组等等。
 ---
 
