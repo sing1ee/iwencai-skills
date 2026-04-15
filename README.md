@@ -58,7 +58,25 @@ cp -r ~/iwencai-skills/skills/问财选A股/hithink-astock-selector ~/.claude/sk
 查一下贵州茅台最近三年的营收和净利润
 ```
 
+## 环境变量
+
+所有 skills 均依赖 `IWENCAI_API_KEY`。在 [https://www.iwencai.com/skillhub](https://www.iwencai.com/skillhub) 注册后可获取。
+
+获取 key 后，在每个 skill 的 `scripts/` 目录下创建 `.env` 文件：
+
+```bash
+# skills/问财选A股/hithink-astock-selector/scripts/.env
+IWENCAI_API_KEY=your_api_key_here
+```
+
+或直接导出为系统环境变量：
+
+```bash
+export IWENCAI_API_KEY=your_api_key_here
+```
+
+> `.env` 文件已加入 `.gitignore`，不会被提交到版本库。
+
 ## 许可证
 
 [MIT](LICENSE)
-# iwencai-skills
