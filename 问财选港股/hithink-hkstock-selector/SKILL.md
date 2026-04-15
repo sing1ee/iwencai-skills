@@ -1,5 +1,5 @@
 ---
-name: HK Stock Selector
+name: HK-Stock-Selector
 description: 同花顺智能选港股skill。通过自然语言查询进行港股筛选，支持行情指标、财务指标、行业概念、陆港通等多条件组合筛选。返回符合条件的相关港股数据。当用户询问港股筛选问题时，必须使用此技能。
 ---
 
