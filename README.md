@@ -25,7 +25,7 @@
 
 ```bash
 # clone 仓库
-git clone https://github.com/YOUR_USERNAME/iwencai-skills.git ~/iwencai-skills
+git clone https://github.com/sing1ee/iwencai-skills ~/iwencai-skills
 
 # 安装单个 skill（以 A 股选股为例）
 ln -s ~/iwencai-skills/skills/问财选A股/hithink-astock-selector ~/.claude/skills/hithink-astock-selector
